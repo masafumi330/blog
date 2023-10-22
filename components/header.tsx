@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Icon from "../public/assets/icon.svg";
 import ChangeThemeButton from "./chante-theme-button";
-import { CMS_NAME } from '../lib/constants'
+import { CMS_NAME } from '../lib/constants';
 
 
 const Header = () => {
@@ -15,8 +15,8 @@ const Header = () => {
         <span className="ml-3 text-xl">{CMS_NAME}</span>
       </Link>
       <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <Link href="about" className="mr-5 hover:text-gray-900">Posts</Link>
-        <Link href="posts" className="mr-5 hover:text-gray-900">About</Link>
+        <Link href="posts" className="mr-5 hover:text-gray-900">Posts</Link>
+        <Link href="about" className="mr-5 hover:text-gray-900">About</Link>
       </nav>
       <span className="group inline-flex items-center text-xl font-medium pl-2 pr-3 py-2">
         <ChangeThemeButton />
