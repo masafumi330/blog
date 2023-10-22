@@ -7,6 +7,10 @@ const Header = () => {
         Blog
       </Link>
       .
+      <Link href="/" className="hover:underline">
+        About
+      </Link>
+      .
     </h2>
   )
 }
